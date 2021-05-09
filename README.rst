@@ -2,11 +2,12 @@
 ShootingPiDemo
 ==============
 
-.. image:: https://img.shields.io/travis/csaq1985/shootingpidemo.svg
-        :target: https://travis-ci.org/csaq1985/shootingpidemo
 
-.. image:: https://img.shields.io/pypi/v/shootingpidemo.svg
-        :target: https://pypi.python.org/pypi/shootingpidemo
+.. image:: https://git.uibk.ac.at/csaq1985/shootingpidemo/badges/master/pipeline.svg
+        :target: https://git.uibk.ac.at/csaq1985/shootingpidemo/commits/master
+
+.. image:: https://git.uibk.ac.at/csaq1985/shootingpidemo/badges/master/coverage.svg
+        :target: https://git.uibk.ac.at/csaq1985/shootingpidemo/commits/master
 
 
 Demonstrate and test GitLab funtionality with example python project
@@ -16,5 +17,5 @@ Demonstrate and test GitLab funtionality with example python project
 
 Features
 --------
-
-* TODO
+* Complete Python module (setup, requirements, tests, linter)
+* Basic GitLab CI
