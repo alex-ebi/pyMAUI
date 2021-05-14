@@ -31,7 +31,7 @@ Pipeline status and coverage report
 Requires test coverage parsing (with `^TOTAL.+?(\d+\%)$`)
 
 ## Demonstration
-- [ ] SSH keys
+- [x] SSH keys
 - [ ] Rebasing (example: dev branch to master)
 - [ ] Create merge request
 - [ ] Code review
