@@ -1,6 +1,6 @@
 import numpy as np
 
-from shootingpidemo.utils import Random2dPoint
+from pyMAUI.utils import Random2dPoint
 
 
 def hits_circle(point: Random2dPoint) -> bool:

@@ -31,7 +31,7 @@ test:
   script:
     - coverage run -m pytest  # Run the tests and check for test coverage.
     - coverage report -m  # Generate test coverage report.
-    - flake8 -v shootingpidemo/ # Enforce code style ('relaxed' line length limit is set in .flake8 config file).
+    - flake8 -v pyMAUI/ # Enforce code style ('relaxed' line length limit is set in .flake8 config file).
 
 pages:
   script:

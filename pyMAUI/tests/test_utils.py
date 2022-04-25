@@ -1,4 +1,4 @@
-from shootingpidemo.utils import Random2dPoint
+from pyMAUI.utils import Random2dPoint
 
 
 def test_2d_point_attributes():

@@ -1,7 +1,7 @@
 import pytest
 
-from shootingpidemo.shooting import hits_circle
-from shootingpidemo.utils import Random2dPoint
+from pyMAUI.shooting import hits_circle
+from pyMAUI.utils import Random2dPoint
 
 
 def test_hit():

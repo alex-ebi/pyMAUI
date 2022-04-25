@@ -7,10 +7,10 @@ import versioneer
 # NOTE: This file must remain Python 2 compatible for the foreseeable future,
 # to ensure that we error out properly for people with outdated setuptools
 # and/or pip.
-min_version = (3, 6)
+min_version = (3, 8)
 if sys.version_info < min_version:
     error = """
-shootingpidemo does not support Python {0}.{1}.
+pyMAUI does not support Python {0}.{1}.
 Python {2}.{3} and above is required. Check your Python version like so:
 
 python3 --version
@@ -34,7 +34,7 @@ with open(path.join(here, 'requirements.txt')) as requirements_file:
 
 
 setup(
-    name='shootingpidemo',
+    name='pyMAUI',
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     description="Demonstrate and test GitLab funtionality with example python project",
@@ -51,7 +51,7 @@ setup(
     },
     include_package_data=True,
     package_data={
-        'shootingpidemo': [
+        'pyMAUI': [
             # When adding files here, remember to update MANIFEST.in as well,
             # or else they will not be included in the distribution on PyPI!
             # 'path/to/data_file',
